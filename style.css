@@ -1,0 +1,217 @@
+body {
+  background-image: url("bg.gif"); /* Replace with your GIF path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.note-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.note {
+  background-color: #fffa9e; /* Default color */
+  border-radius: 10px; /* Round corners */
+  padding: 15px;
+  margin: 10px;
+  position: relative; /* Needed for centering content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  font-size: larger;
+  display: flex;
+    flex-direction: column;
+}
+
+.note p {
+  text-align: center; /* Center text within note */
+  flex-grow: 1; 
+}
+
+.one {
+  background-color: #ddc7f1;
+  
+}
+
+.two {
+  background-color: #d9c1ef;
+}
+
+.three {
+  background-color: #d6baed;
+}
+.four {
+  background-color: #d2b4ec;
+}
+.five {
+  background-color: #ceadea;
+}
+.six {
+  background-color: #caa7e8;
+}
+.seven {
+  background-color: #c6a0e7;
+}
+.eight{
+  background-color: #c29ae5;
+}
+.nine {
+  background-color: #be93e3;
+}
+.ten {
+  background-color: #ba8de2;
+}
+.eleven{
+  background-color: #b686e0;
+}
+.twelve {
+  background-color: #b280de;
+}
+.thirteen {
+  background-color: #caa7e8;
+}
+.fourteen{
+  background-color: #c6a0e7;
+}
+.fifteen{
+  background-color: #c29ae5;
+}
+.sixteen  {
+  background-color: #be93e3;
+}
+.seventeen {
+  background-color: #ba8de2;
+}
+.eighteen{
+  background-color: #b686e0;
+}
+.nineteen {
+  background-color: #b280de;
+}
+.twenty {
+  background-color: #c6a0e7;
+}
+.a {
+  background-color: #d6baed;
+}
+.b {
+  background-color: #d2b4ec;
+}
+.c {
+  background-color: #ceadea;
+}
+.d {
+  background-color: #caa7e8;
+}
+.e {
+  background-color: #c6a0e7;
+}
+.f{
+  background-color: #c29ae5;
+}
+.g {
+  background-color: #caa7e8;
+}
+.h{
+  background-color: #c6a0e7;
+}
+.i{
+  background-color: #c29ae5;
+}
+.j  {
+  background-color: #be93e3;
+}
+.k {
+  background-color: #ba8de2;
+}
+.l{
+  background-color: #b686e0;
+}
+.m {
+  background-color: #caa7e8;
+}
+.n{
+  background-color: #c6a0e7;
+}
+.o{
+  background-color: #c29ae5;
+}
+.p  {
+  background-color: #be93e3;
+}
+.q {
+  background-color: #ba8de2;
+}
+.r{
+  background-color: #b686e0;
+}
+.s {
+  background-color: #caa7e8;
+}
+.t{
+  background-color: #c6a0e7;
+}
+.u{
+  background-color: #c29ae5;
+}
+.v  {
+  background-color: #be93e3;
+}
+.w {
+  background-color: #ba8de2;
+}
+.x{
+  background-color: #b686e0;
+}
+.y {
+  background-color: #caa7e8;
+}
+.z{
+  background-color: #c6a0e7;
+}
+.Aa{
+  background-color: #c6a0e7;
+}
+.Bb{
+  background-color: #c29ae5;
+}
+.Cc  {
+  background-color: #be93e3;
+}
+.Dd {
+  background-color: #ba8de2;
+}
+.Ee{
+  background-color: #b686e0;
+}
+.Ff {
+  background-color: #caa7e8;
+}
+.Gg{
+  background-color: #c6a0e7;
+}
+
+.note-details {
+  /* ... other styles ... */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  background-color: #bf94e4;
+  padding: 10px;
+      /* ... other styles ... */
+      position: relative; /* Removed absolute positioning */
+      width: 100%; /* Full width */
+      max-height: 200px; /* Adjust the height as needed */
+      overflow-y: scroll;
+}
+/* Add more color classes for different notes */
